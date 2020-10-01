@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Решение JS Уровень 1</title>
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="game">
+    <div class="container">
+      <button class="start-btn">
+        Начать игру
+      </button>
+      <div class="game-block">
+          <h1 class="game-title">
+            Кто хочет стать миллионером
+          </h1>
+          <div class="game-wrap">
+            <div class="block-questions">
+  
+              <div class="question question_1 question-active">
+                <h2>
+                  Зимой и летом одним цветом?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Береза</div>
+                  <div class="answer">Елка</div>
+                  <div class="answer">Дуб</div>
+                  <div class="answer">Тополь</div>
+                </div>
+              </div>
+  
+              <div class="question question_2">
+                <h2>
+                  Кто на своей голове лес носит?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Ежик</div>
+                  <div class="answer">Собака</div>
+                  <div class="answer">Олень</div>
+                  <div class="answer">Медведь</div>
+                </div>
+              </div>
+  
+              <div class="question question_3">
+                <h2>
+                  Летом - сладкий и зеленый<br>
+                  В зиму - желтый и соленый.
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Огурец</div>
+                  <div class="answer">Помидор</div>
+                  <div class="answer">Авокадо</div>
+                  <div class="answer">Капуста</div>
+                </div>
+              </div>
+  
+              <div class="question question_4">
+                <h2>
+                  Не птичка, а с красивыми крыльями.
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Жар птица</div>
+                  <div class="answer">Мотылек</div>
+                  <div class="answer">Пингвин</div>
+                  <div class="answer">Бабочка</div>
+                </div>
+              </div>
+  
+              <div class="question question_5">
+                <h2>
+                  Дюймовочки жених слепой<br>
+                  Живет все время под землей.
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Паук</div>
+                  <div class="answer">Мышь</div>
+                  <div class="answer">Крот</div>
+                  <div class="answer">Жук</div>
+                </div>
+              </div>
+  
+              <div class="question question_6">
+                <h2>
+                  Перед каким простым смертным<br>
+                  даже президент снимает шапку?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Начальник</div>
+                  <div class="answer">Чиновник</div>
+                  <div class="answer">Прокурор</div>
+                  <div class="answer">Парикмахер</div>
+                </div>
+              </div>
+  
+              <div class="question question_7">
+                <h2>
+                  В какой басне Крылова среди<br>
+                  действующих лиц есть человек?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Свинья под дубом</div>
+                  <div class="answer">Осел и соловей</div>
+                  <div class="answer">Лягушка и волк</div>
+                  <div class="answer">Волк на псарне</div>
+                </div>
+              </div>
+  
+              <div class="question question_8">
+                <h2>
+                  Кому в работе нужны постромки?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Врачу</div>
+                  <div class="answer">Кузнецу</div>
+                  <div class="answer">Извозчику</div>
+                  <div class="answer">Охотнику</div>
+                </div>
+              </div>
+  
+              <div class="question question_9">
+                <h2>
+                  Как называется один из видов жуков?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Канонир</div>
+                  <div class="answer">Командор</div>
+                  <div class="answer">Артиллерист</div>
+                  <div class="answer">Бомбардир</div>
+                </div>
+              </div>
+  
+              <div class="question question_10">
+                <h2>
+                  Что не входило в обязанности<br>
+                  первых стюардесс?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Заправлять самолет</div>
+                  <div class="answer">Носить багаж</div>
+                  <div class="answer">Кормить пассажиров</div>
+                  <div class="answer">Уничтожать мух</div>
+                </div>
+              </div>
+  
+              <div class="question question_11">
+                <h2>
+                  Чем увлекался знаменитый сказочник<br>
+                  Ганс-Христан Андерсен?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Выпиливанием лобзиком</div>
+                  <div class="answer">Вязанием</div>
+                  <div class="answer">Выжиганием</div>
+                  <div class="answer">Вырезанием из бумаги</div>
+                </div>
+              </div>
+  
+              <div class="question question_12">
+                <h2>
+                  Кого в основом играют в театре<br>
+                  актрисы амплуа иженю?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Наивных девушек</div>
+                  <div class="answer">Старух</div>
+                  <div class="answer">Подростков</div>
+                  <div class="answer">Бойких служаной</div>
+                </div>
+              </div>
+  
+              <div class="question question_13">
+                <h2>
+                  С чем часто охотятся на рыбу протоптера<br>
+                  между сезонами дождей?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">С ружьями</div>
+                  <div class="answer">С лопатами</div>
+                  <div class="answer">С сетями</div>
+                  <div class="answer">С сачками</div>
+                </div>
+              </div>
+  
+              <div class="question question_14">
+                <h2>
+                  Каким видом спорта серьезно увлекался<br>
+                  французский летчик Ролан Гаррос?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Пинг-понгом</div>
+                  <div class="answer">Поло</div>
+                  <div class="answer">Регби</div>
+                  <div class="answer">Гольфом</div>
+                </div>
+              </div>
+  
+              <div class="question question_15">
+                <h2>
+                  Что такое лобогрейка?
+                </h2>
+                <div class="block-answers">
+                  <div class="answer">Жнейка</div>
+                  <div class="answer">Шапка</div>
+                  <div class="answer">Болезнь</div>
+                  <div class="answer">Печка</div>
+                </div>
+              </div>
+  
+              <button class="end-btn">
+                Закончить игру
+              </button>
+            </div>
+  
+            <div class="block-win">
+              <div class="hints">
+                <div class="hints-help fifty-fifty">
+                  <span class="close-left"></span>
+                  <span class="close-right"></span>
+                  50/50
+                </div>
+                <div class="hints-help hall-help">
+                  <span class="close-left"></span>
+                  <span class="close-right"></span>
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="hints-help call-friend">
+                  <span class="close-left"></span>
+                  <span class="close-right"></span>
+                  <i class="fas fa-phone"></i>
+                </div>
+              </div>
+  
+              <div class="wins">
+                <div class="wins-block"><span>15.</span>1 000 000</div>
+                <div class="wins-block"><span>14.</span>500 000</div>
+                <div class="wins-block"><span>13.</span>250 000</div>
+                <div class="wins-block"><span>12.</span>125 000</div>
+                <div class="wins-block"><span>11.</span>64 000</div>
+                <div class="wins-block"><span>10.</span>32 000</div>
+                <div class="wins-block"><span>9.</span>16 000</div>
+                <div class="wins-block"><span>8.</span>8 000</div>
+                <div class="wins-block"><span>7.</span>4 000</div>
+                <div class="wins-block"><span>6.</span>2 000</div>
+                <div class="wins-block"><span>5.</span>1 000</div>
+                <div class="wins-block"><span>4.</span>500</div>
+                <div class="wins-block"><span>3.</span>300</div>
+                <div class="wins-block"><span>2.</span>200</div>
+                <div class="wins-block"><span>1.</span>100</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="gameMillionaire.js"></script>
+</body>
+</html>

@@ -281,8 +281,7 @@ body {
   .container {
     width: 95%;
   }
-}
-@media (max-width: 1024px) {
+
   .wins-block {
     margin-left: 21%;
     line-height: 18px;

@@ -27,6 +27,7 @@ body {
   transform: scale(1.2);
 }
 .game {
+  min-height: 100vh;
   background: rgb(2,0,36);
   background: linear-gradient(45deg, rgba(9,9,121,1) 0%, rgba(7,169,201,1) 50%, rgba(9,9,121,1) 100%);
   padding: 50px 0;
@@ -51,6 +52,7 @@ body {
 }
 
 .game-title {
+  margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-align: center;

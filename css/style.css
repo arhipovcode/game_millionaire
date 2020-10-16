@@ -281,6 +281,15 @@ body {
     width: 95%;
   }
 }
+@media (max-width: 1024px) {
+  .wins-block {
+    margin-left: 21%;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+  }
+}
 @media (max-width: 992px) {
   .block-questions {
     flex-basis: 65%;
@@ -290,13 +299,6 @@ body {
   }
   .block-questions h2 {
     font-size: 24px;
-  }
-  .wins-block {
-    margin-left: 21%;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-size: 16px;
-    padding: 0px 0px 0px 10px;
   }
   .game-wrap {
     font-size: 18px;

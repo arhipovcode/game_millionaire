@@ -293,6 +293,9 @@ body {
   }
   .wins-block {
     margin-left: 21%;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-size: 16px;
   }
   .game-wrap {
     font-size: 18px;
@@ -316,11 +319,7 @@ body {
   .container {
     width: 95%;
   }
-  .wins-block {
-    line-height: 18px;
-    margin-bottom: 0;
-    font-size: 16px;
-  }
+  
   .wins {
     margin-top: 20px;
   }

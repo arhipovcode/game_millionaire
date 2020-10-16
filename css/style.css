@@ -316,6 +316,13 @@ body {
   .container {
     width: 95%;
   }
+  .wins-block {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .wins {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 576px) {
   
